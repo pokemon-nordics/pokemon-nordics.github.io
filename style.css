@@ -36,7 +36,7 @@ h1 {
 
 .dex-name-back {
 	background-color: var(--grey-2);
-	height: 2.2em;
+	height: calc(2.2em + 3px);
 }
 
 .dex-name {
@@ -49,6 +49,7 @@ h1 {
 .dex-number {
 	float: right;
 	padding: 0.5em;
+	padding-top: calc(0.5em - 3px);
 	color: var(--grey-2);
 	background-color: var(--grey-1);
 	border-left: 4px solid var(--grey-2);
